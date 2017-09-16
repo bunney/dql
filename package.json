@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo  test"
+    "build":"npm run gulp",
+    "start":"node  ./build/app.js",
+    "test": "echo  test",
+    "gulp":"gulp"
   },
   "repository": {
     "type": "git",
