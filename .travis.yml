@@ -1,7 +1,6 @@
 language: node_js
 node_js:
-- iojs
-- '7'
+- '8'
 after_script:
 - scp -o StrictHostKeyChecking = no app.js root@47.95.239.252:/home/www/dql
 before_install:
