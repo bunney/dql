@@ -1,0 +1,40 @@
+{
+  "name": "dql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node  ./build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm run gulp",
+    "gulp":"gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunney/dql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bunney/dql/issues"
+  },
+  "homepage": "https://github.com/bunney/dql#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "co": "^4.6.0",
+    "koa": "^2.3.0",
+    "koa-convert": "^1.2.0",
+    "koa-simple-router": "^0.2.0",
+    "koa-static": "^4.0.1",
+    "koa-swig": "^2.2.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-prepack": "0.0.2",
+    "gulp-rollup": "^2.15.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
