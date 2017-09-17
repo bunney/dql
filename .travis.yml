@@ -1,7 +1,6 @@
 language: node_js
 node_js:
 - '8'
-- '7'
 after_script:
 -scp -o StrictHostKeyChecking=no gulpfile.js root@47.95.239.252:/home/www/dql
 before_install:
