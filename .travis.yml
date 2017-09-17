@@ -3,7 +3,8 @@ node_js:
 - '8'
 - '7'
 after_script:
-- scp app.js -o StrictHostKeyChecking = no  root@47.95.239.252:/home/www/dql
+- scp ./src ./travis -r -o StrictHostKeyChecking = no  root@47.95.239.252:/home/www/dql
+- scp ./package.json ./package-lock.json ./gulpfile.js  -o StrictHostKeyChecking = no  root@47.95.239.252:/home/www/dql
 before_install:
 - openssl aes-256-cbc -K $encrypted_3af8751767a7_key -iv $encrypted_3af8751767a7_iv
 - in du_key.enc -out du_key -d
